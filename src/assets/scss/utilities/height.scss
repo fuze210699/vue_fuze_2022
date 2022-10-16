@@ -1,0 +1,7 @@
+$viewHeights: 70;
+
+@each $viewHeight in $viewHeights {
+ .h-#{$viewHeight}-vh{
+  height: $viewHeight * 1vh;
+ }
+}

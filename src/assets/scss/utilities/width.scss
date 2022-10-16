@@ -1,0 +1,6 @@
+$widths: 10px, 20px;
+@each $width in $widths {
+  .w-#{$width}{
+    width: $width;
+  }
+}
