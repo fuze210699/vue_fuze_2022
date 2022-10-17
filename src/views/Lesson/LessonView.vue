@@ -15,8 +15,8 @@ const mockLessons = [
 </script>
 
 <template>
-  <div class="mb-10">
-    <span class="text-base font-bold text-red-300">Lesson</span>
+  <div class="pt-3 mb-10">
+    <span class="text-base text-c-primary">Lesson</span>
   </div>
   <div class="grid grid-flow-row grid-cols-2">
     <router-link to="virtual-render">
