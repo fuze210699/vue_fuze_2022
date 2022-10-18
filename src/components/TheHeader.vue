@@ -14,8 +14,8 @@ const navItems = [
 </script>
 
 <template>
-  <div class="app-header grid grid-flow-col gap-4 px-8 py-4">
-    <div class="col-span-3">
+  <div class="app-header grid grid-flow-col gap-4 px-8 py-4 h-[60px]">
+    <div class="col-span-3 flex items-center">
       <img :src="LOGO" class="w-[90px] h-[20px]" alt="logo" />
     </div>
     <div class="col-span-9 flex items-center">

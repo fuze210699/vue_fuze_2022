@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home/HomeView.vue";
-import { Lesson, VirtualRenderList } from "../views/Lesson";
+import { Lesson, VirtualRenderList, PiniaSimplified } from "../views/Lesson";
 
 const Route = {
   Home: {
@@ -13,6 +13,10 @@ const Route = {
     One: {
       name: "virtual-render",
       path: "/virtual-render",
+    },
+    Two: {
+      name: "pinia-simplified",
+      path: "/pinia-simplified",
     },
   },
 };
@@ -34,6 +38,11 @@ const router = createRouter({
       path: Route.Lesson.One.path,
       name: Route.Lesson.One.name,
       component: VirtualRenderList,
+    },
+    {
+      path: Route.Lesson.Two.path,
+      name: Route.Lesson.Two.name,
+      component: PiniaSimplified,
     },
   ],
 });

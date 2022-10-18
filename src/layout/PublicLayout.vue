@@ -5,7 +5,7 @@ import { Sidebar, Banner, Header, Footer } from "../components";
 
 <template>
   <div class="min-h-screen relative">
-    <div class="fixed w-full">
+    <div class="fixed w-full z-50">
       <Header />
     </div>
     <div class="h-70-vh pt-[60px] bg-orange-500">
